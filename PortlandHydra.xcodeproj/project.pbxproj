@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0B82A111EB503E900BAB463 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B82A101EB503E900BAB463 /* AppDelegate.swift */; };
+		D0B82A131EB503E900BAB463 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B82A121EB503E900BAB463 /* MasterViewController.swift */; };
+		D0B82A151EB503E900BAB463 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B82A141EB503E900BAB463 /* DetailViewController.swift */; };
+		D0B82A181EB503E900BAB463 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0B82A161EB503E900BAB463 /* Main.storyboard */; };
+		D0B82A1A1EB503E900BAB463 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0B82A191EB503E900BAB463 /* Assets.xcassets */; };
+		D0B82A1D1EB503E900BAB463 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0B82A1B1EB503E900BAB463 /* LaunchScreen.storyboard */; };
+		D0B82A281EB503E900BAB463 /* PortlandHydraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B82A271EB503E900BAB463 /* PortlandHydraTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0B82A241EB503E900BAB463 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0B82A051EB503E900BAB463 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0B82A0C1EB503E900BAB463;
+			remoteInfo = PortlandHydra;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D0B82A0D1EB503E900BAB463 /* PortlandHydra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PortlandHydra.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0B82A101EB503E900BAB463 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D0B82A121EB503E900BAB463 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		D0B82A141EB503E900BAB463 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		D0B82A171EB503E900BAB463 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D0B82A191EB503E900BAB463 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D0B82A1C1EB503E900BAB463 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D0B82A1E1EB503E900BAB463 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0B82A231EB503E900BAB463 /* PortlandHydraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PortlandHydraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0B82A271EB503E900BAB463 /* PortlandHydraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortlandHydraTests.swift; sourceTree = "<group>"; };
+		D0B82A291EB503E900BAB463 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0B82A0A1EB503E900BAB463 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0B82A201EB503E900BAB463 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0B82A041EB503E900BAB463 = {
+			isa = PBXGroup;
+			children = (
+				D0B82A0F1EB503E900BAB463 /* PortlandHydra */,
+				D0B82A261EB503E900BAB463 /* PortlandHydraTests */,
+				D0B82A0E1EB503E900BAB463 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0B82A0E1EB503E900BAB463 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0B82A0D1EB503E900BAB463 /* PortlandHydra.app */,
+				D0B82A231EB503E900BAB463 /* PortlandHydraTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0B82A0F1EB503E900BAB463 /* PortlandHydra */ = {
+			isa = PBXGroup;
+			children = (
+				D0B82A101EB503E900BAB463 /* AppDelegate.swift */,
+				D0B82A121EB503E900BAB463 /* MasterViewController.swift */,
+				D0B82A141EB503E900BAB463 /* DetailViewController.swift */,
+				D0B82A161EB503E900BAB463 /* Main.storyboard */,
+				D0B82A191EB503E900BAB463 /* Assets.xcassets */,
+				D0B82A1B1EB503E900BAB463 /* LaunchScreen.storyboard */,
+				D0B82A1E1EB503E900BAB463 /* Info.plist */,
+			);
+			path = PortlandHydra;
+			sourceTree = "<group>";
+		};
+		D0B82A261EB503E900BAB463 /* PortlandHydraTests */ = {
+			isa = PBXGroup;
+			children = (
+				D0B82A271EB503E900BAB463 /* PortlandHydraTests.swift */,
+				D0B82A291EB503E900BAB463 /* Info.plist */,
+			);
+			path = PortlandHydraTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0B82A0C1EB503E900BAB463 /* PortlandHydra */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0B82A2C1EB503E900BAB463 /* Build configuration list for PBXNativeTarget "PortlandHydra" */;
+			buildPhases = (
+				D0B82A091EB503E900BAB463 /* Sources */,
+				D0B82A0A1EB503E900BAB463 /* Frameworks */,
+				D0B82A0B1EB503E900BAB463 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PortlandHydra;
+			productName = PortlandHydra;
+			productReference = D0B82A0D1EB503E900BAB463 /* PortlandHydra.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0B82A221EB503E900BAB463 /* PortlandHydraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0B82A2F1EB503E900BAB463 /* Build configuration list for PBXNativeTarget "PortlandHydraTests" */;
+			buildPhases = (
+				D0B82A1F1EB503E900BAB463 /* Sources */,
+				D0B82A201EB503E900BAB463 /* Frameworks */,
+				D0B82A211EB503E900BAB463 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0B82A251EB503E900BAB463 /* PBXTargetDependency */,
+			);
+			name = PortlandHydraTests;
+			productName = PortlandHydraTests;
+			productReference = D0B82A231EB503E900BAB463 /* PortlandHydraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0B82A051EB503E900BAB463 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Graf, Eric";
+				TargetAttributes = {
+					D0B82A0C1EB503E900BAB463 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 23CYLCRV52;
+						ProvisioningStyle = Automatic;
+					};
+					D0B82A221EB503E900BAB463 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 23CYLCRV52;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D0B82A0C1EB503E900BAB463;
+					};
+				};
+			};
+			buildConfigurationList = D0B82A081EB503E900BAB463 /* Build configuration list for PBXProject "PortlandHydra" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0B82A041EB503E900BAB463;
+			productRefGroup = D0B82A0E1EB503E900BAB463 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0B82A0C1EB503E900BAB463 /* PortlandHydra */,
+				D0B82A221EB503E900BAB463 /* PortlandHydraTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0B82A0B1EB503E900BAB463 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0B82A1D1EB503E900BAB463 /* LaunchScreen.storyboard in Resources */,
+				D0B82A1A1EB503E900BAB463 /* Assets.xcassets in Resources */,
+				D0B82A181EB503E900BAB463 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0B82A211EB503E900BAB463 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0B82A091EB503E900BAB463 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0B82A151EB503E900BAB463 /* DetailViewController.swift in Sources */,
+				D0B82A131EB503E900BAB463 /* MasterViewController.swift in Sources */,
+				D0B82A111EB503E900BAB463 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0B82A1F1EB503E900BAB463 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0B82A281EB503E900BAB463 /* PortlandHydraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0B82A251EB503E900BAB463 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0B82A0C1EB503E900BAB463 /* PortlandHydra */;
+			targetProxy = D0B82A241EB503E900BAB463 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D0B82A161EB503E900BAB463 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0B82A171EB503E900BAB463 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D0B82A1B1EB503E900BAB463 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0B82A1C1EB503E900BAB463 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0B82A2A1EB503E900BAB463 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D0B82A2B1EB503E900BAB463 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0B82A2D1EB503E900BAB463 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 23CYLCRV52;
+				INFOPLIST_FILE = PortlandHydra/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = grafTest.PortlandHydra;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D0B82A2E1EB503E900BAB463 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 23CYLCRV52;
+				INFOPLIST_FILE = PortlandHydra/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = grafTest.PortlandHydra;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D0B82A301EB503E900BAB463 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 23CYLCRV52;
+				INFOPLIST_FILE = PortlandHydraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = grafTest.PortlandHydraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PortlandHydra.app/PortlandHydra";
+			};
+			name = Debug;
+		};
+		D0B82A311EB503E900BAB463 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 23CYLCRV52;
+				INFOPLIST_FILE = PortlandHydraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = grafTest.PortlandHydraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PortlandHydra.app/PortlandHydra";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0B82A081EB503E900BAB463 /* Build configuration list for PBXProject "PortlandHydra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0B82A2A1EB503E900BAB463 /* Debug */,
+				D0B82A2B1EB503E900BAB463 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0B82A2C1EB503E900BAB463 /* Build configuration list for PBXNativeTarget "PortlandHydra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0B82A2D1EB503E900BAB463 /* Debug */,
+				D0B82A2E1EB503E900BAB463 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D0B82A2F1EB503E900BAB463 /* Build configuration list for PBXNativeTarget "PortlandHydraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0B82A301EB503E900BAB463 /* Debug */,
+				D0B82A311EB503E900BAB463 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0B82A051EB503E900BAB463 /* Project object */;
+}
