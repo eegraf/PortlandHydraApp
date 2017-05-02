@@ -28,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D02ACA5C1EB82AD00057423E /* READ_ME.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = READ_ME.rtf; sourceTree = "<group>"; };
 		D0B82A0D1EB503E900BAB463 /* PortlandHydra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PortlandHydra.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0B82A101EB503E900BAB463 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0B82A121EB503E900BAB463 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
@@ -62,6 +63,7 @@
 		D0B82A041EB503E900BAB463 = {
 			isa = PBXGroup;
 			children = (
+				D02ACA5C1EB82AD00057423E /* READ_ME.rtf */,
 				D0B82A0F1EB503E900BAB463 /* PortlandHydra */,
 				D0B82A261EB503E900BAB463 /* PortlandHydraTests */,
 				D0B82A0E1EB503E900BAB463 /* Products */,
@@ -412,6 +414,7 @@
 				D0B82A2E1EB503E900BAB463 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D0B82A2F1EB503E900BAB463 /* Build configuration list for PBXNativeTarget "PortlandHydraTests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +423,7 @@
 				D0B82A311EB503E900BAB463 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

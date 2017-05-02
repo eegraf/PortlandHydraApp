@@ -57,7 +57,8 @@ class MasterViewController: UITableViewController {
             if let indexPath = tableView.indexPathForSelectedRow {
                 let object = objects[indexPath.row] as! AnyObject
                 let controller = (segue.destination as! UINavigationController).topViewController as! DetailViewController
-                controller.detailItem = guageURLs(sortedKeys).value
+                controller.detailItem = guageURLs.value
+                //What I (THINK) I want to do here is to se the controller.detailItem to the value of the key at the index which i tapped in the MasterView. So I need the value for key, which is "sortedKeys"
                 controller.navigationItem.leftBarButtonItem = splitViewController?.displayModeButtonItem
                 controller.navigationItem.leftItemsSupplementBackButton = true
             }
